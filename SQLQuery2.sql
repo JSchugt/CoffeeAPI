@@ -1,0 +1,6 @@
+﻿CREATE TABLE BeanVariety (
+    Id INTEGER NOT NULL PRIMARY KEY IDENTITY,
+    [Name] VARCHAR(50) NOT NULL,
+    Region VARCHAR(255) NOT NULL,
+    Notes TEXT
+);
